@@ -71,6 +71,23 @@ section{
 .imagem{
     background-color: rgb(82, 80, 80);
     color: white;
+    box-shadow: 6px 6px 13px 0px rgb(77, 75, 75);
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 footer{
     background-color: black;
