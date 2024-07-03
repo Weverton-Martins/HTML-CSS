@@ -7,9 +7,15 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <p><label for="iNome">Nome:</label> <input type="text" name="Nome" id="iNome"></p>
-        <p><label for="iSobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="iSobrenome"></p>
+    <form action="cadastro.php" method="post" autocomplete="off">
+        <p><label for="iNome">Nome:</label> 
+            <input type="text" name="Nome" id="iNome">
+        </p>
+
+        <p><label for="iSobrenome">Sobrenome:</label>
+            <input type="text" name="Sobrenome" id="iSobrenome">
+        </p>
+
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
