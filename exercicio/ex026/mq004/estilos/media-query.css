@@ -9,6 +9,7 @@ Tabelt: 768px ate 992px
 Desktop: 992px ate 1200px
 Grandes Telas: acima de 1200px
 */
+
 /* Impressão */
 @media print{
     *{
